@@ -1,5 +1,5 @@
 {
-  "name": "yireo/magento2-replace-msi",
+  "name": "yireo/magento2-replace-inventory",
   "version": "2.3.1",
   "replace": {
     "magento/module-inventory": "*",
