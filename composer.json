@@ -4,6 +4,8 @@
   "replace": {
     "magento/module-inventory": "*",
     "magento/module-inventory-admin-ui": "*",
+    "magento/module-inventory-advanced-checkout": "*",
+    "magento/module-inventory-requisition-list": "*",
     "magento/module-inventory-api": "*",
     "magento/module-inventory-bundle-product": "*",
     "magento/module-inventory-bundle-product-admin-ui": "*",
@@ -46,6 +48,7 @@
     "magento/module-inventory-shipping-admin-ui": "*",
     "magento/module-inventory-source-deduction-api": "*",
     "magento/module-inventory-source-selection": "*",
-    "magento/module-inventory-source-selection-api": "*"
+    "magento/module-inventory-source-selection-api": "*",
+    "magento/module-sales-inventory": "*"
   }
 }
