@@ -14,6 +14,8 @@
     "magento/module-inventory-catalog-admin-ui": "*",
     "magento/module-inventory-catalog-api": "*",
     "magento/module-inventory-catalog-search": "*",
+    "magento/inventory-composer-installer": "*",
+    "magento/inventory-composer-metapackage": "*",
     "magento/module-inventory-configurable-product": "*",
     "magento/module-inventory-configurable-product-admin-ui": "*",
     "magento/module-inventory-configurable-product-indexer": "*",
