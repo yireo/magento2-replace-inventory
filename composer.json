@@ -1,6 +1,9 @@
 {
   "name": "yireo/magento2-replace-inventory",
   "version": "2.3.2",
+  "require": {
+    "magento/product-community-edition": "2.3.2"
+  },
   "replace": {
     "magento/module-inventory": "*",
     "magento/module-inventory-admin-ui": "*",
