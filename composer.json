@@ -1,6 +1,5 @@
 {
   "name": "yireo/magento2-replace-inventory",
-<<<<<<< HEAD
   "version": "2.3.5",
   "require": {
     "magento/product-community-edition": "^2.3.5"
@@ -57,7 +56,4 @@
     "magento/module-inventory-source-selection-api": "*",
     "magento/module-sales-inventory": "*"
   }
-=======
-  "description": "See specific branch instead"
->>>>>>> 7a9fe6f5a9ba6f5c86d7ee0c6d8db09e519b5e4a
 }
