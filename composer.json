@@ -1,7 +1,7 @@
 {
   "name": "yireo/magento2-replace-inventory",
   "require": {
-    "magento/product-community-edition": "2.3.1"
+    "magento/product-community-edition": "~2.3.1"
   },
   "replace": {
     "magento/module-inventory": "*",
