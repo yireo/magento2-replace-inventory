@@ -1,5 +1,5 @@
 name: Magento installation
-on: [push, pull_request]
+on: [push]
 defaults:
   run:
     shell: bash
