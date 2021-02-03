@@ -1,7 +1,7 @@
 {
   "name": "yireo/magento2-replace-inventory",
   "require": {
-    "magento/product-community-edition": ">=2.4.0 <2.4.2"
+    "magento/product-community-edition": ">=2.4.0 <2.4.3"
   },
   "replace": {
     "magento/inventory-composer-installer":"*",
