@@ -18,6 +18,7 @@
     "magento/module-inventory-cache": "*",
     "magento/module-inventory-catalog": "*",
     "magento/module-inventory-catalog-admin-ui": "*",
+    "magento/module-inventory-catalog-frontend-ui": "*",
     "magento/module-inventory-catalog-api": "*",
     "magento/module-inventory-catalog-search": "*",
     "magento/module-inventory-configurable-product": "*",
