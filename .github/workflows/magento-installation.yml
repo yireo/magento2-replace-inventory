@@ -41,7 +41,7 @@ jobs:
             COMPOSER_NAME: ${{ secrets.COMPOSER_NAME }}
         run: |
             MAGENTO_VERSION=`cat ${GITHUB_WORKSPACE}/.github/workflows/magento_version.txt`
-            BRANCH=magento-${MAGENTO_VERSION/-p*/}
+            BRANCH=magento-`echo $MAGENTO_VERSION | cut -f'1-2' -d\.`
             test -z "$MAGENTO_VERSION" && exit 1
             cd /tmp/m2
             ln -s ${GITHUB_WORKSPACE} local-source
@@ -54,7 +54,7 @@ jobs:
       - name: Composer installation
         run: |
             cd /tmp/m2
-            COMPOSER_MEMORY_LIMIT=-1 composer2 install --prefer-source --no-interaction --no-progress --no-suggest --no-dev
+            COMPOSER_MEMORY_LIMIT=-1 composer2 install --prefer-source --no-interaction --no-progress --no-dev
       - name: Magento installation
         run: |
             cd /tmp/m2
